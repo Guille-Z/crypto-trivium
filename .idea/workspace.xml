@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bb31dfd-ff40-4dba-b5e2-d0006ac1d29e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/bitoperations.py" beforeDir="false" afterPath="$PROJECT_DIR$/bitoperations.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trivium.py" beforeDir="false" afterPath="$PROJECT_DIR$/trivium.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uso.py" beforeDir="false" afterPath="$PROJECT_DIR$/uso.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,16 +12,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/trivium.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="607">
-              <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+            <state relative-caret-position="-119">
+              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uso.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -58,8 +56,8 @@
       <list>
         <option value="$PROJECT_DIR$/usp.py" />
         <option value="$PROJECT_DIR$/bitoperations.py" />
-        <option value="$PROJECT_DIR$/trivium.py" />
         <option value="$PROJECT_DIR$/uso.py" />
+        <option value="$PROJECT_DIR$/trivium.py" />
       </list>
     </option>
   </component>
@@ -147,6 +145,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
@@ -177,17 +176,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trivium.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uso.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trivium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
         </state>
       </provider>
     </entry>
