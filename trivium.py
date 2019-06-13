@@ -18,7 +18,7 @@ class Trivium:
         self.__state |= (self.__iv << 93)   # s94....s177
         self.__state |= 7 << 285            # s286, s287, s288
         # Initial 4 iterations
-        for i in range(2*288):
+        for i in range(self.__iterations * self.__state_length):
             t1 = pick_bit(self.__state, 66) ^ pick_bit(self.__state, 91) & pick_bit(self.__state, 92) ^\
                 pick_bit(self.__state, 93) ^ pick_bit(self.__state, 171)
             t2 = pick_bit(self.__state, 162) ^ pick_bit(self.__state, 175) & pick_bit(self.__state, 176) ^ \
