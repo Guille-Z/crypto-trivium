@@ -33,6 +33,7 @@ class Trivium:
             self.__state = set_bit(self.__state, 94, t1)
             self.__state = set_bit(self.__state, 178, t2)
         print("0x%X" % self.__state)
+        # print("0x%X" % dar_vuelta(self.__state, 288))
 
     def __keystream(self):
         # Key Stream Generation (2.1 Paper)
@@ -65,3 +66,11 @@ class Trivium:
                 x = set_bit(x, i, bit)
             cipher_text += chr(x)
         return cipher_text
+
+    def get_keystream_of_size(self, size):
+        out = 0
+        key_stream = self.__keystream()
+        for i in range(1,size+1):
+            bit = next(key_stream)
+            out = set_bit(out, i, bit)
+        return out

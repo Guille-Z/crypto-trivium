@@ -14,5 +14,13 @@ def pick_bit(bits, position):
 def set_bit(bits, position, value):
     mask = 1 << position-1
     value <<= position-1
-    bits = (bits & ~mask) | (value & mask);
+    bits = (bits & ~mask) | (value & mask)
     return bits
+
+
+def dar_vuelta(bits, tam):
+    stib = bits
+    for i in range(1, tam+1):
+        actual = pick_bit(bits, tam-i+1)
+        stib = set_bit(stib, i, actual)
+    return stib
