@@ -34,7 +34,7 @@ class Trivium:
             self.__state = set_bit(self.__state, 1, t3)
             self.__state = set_bit(self.__state, 94, t1)
             self.__state = set_bit(self.__state, 178, t2)
-        print("0x%X" % self.__state)
+        # print("0x%X" % self.__state)
         # print("0x%X" % dar_vuelta(self.__state, 288))
 
     def __keystream(self):
